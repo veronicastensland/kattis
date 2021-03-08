@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class CalculatePath {
+public class Program {
     
     private int mapSize[] = new int[2];
 
@@ -14,7 +14,7 @@ public class CalculatePath {
 
 
     public static void main(String args[]) {
-        CalculatePath instance = new CalculatePath();  
+        Program instance = new Program();  
         instance.run();
     }
 
